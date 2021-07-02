@@ -2,11 +2,11 @@
     --blue: #3EA1DB;
     --blue-dark: #574AE8;
     --white: #FFF;
-  
     --title: #313131;
-    --text: #B6B6B6;
+    --text: #242424;
     
     --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+
   }
 
   *{
@@ -33,19 +33,22 @@
   }
 
   body{
-
+    width: 100%;
+    height: 100vh;
   }
 
   header{
     background: var(--linear);
-    
-
+display: flex;
+align-items: center;
+justify-content: center;
   }
 
   header .container-header{
     display: flex;
     flex-direction: column;
-    height: 20vh;
+    width: 100%;
+    height: 25vh;
 }
 
 header .container-header ul{
@@ -56,18 +59,36 @@ header .container-header ul{
 
 header .container-header ul li{
       font-size: 1.3rem;
-      margin-top: 1rem;
-      color: var(--text);
+      margin-top: 1.2rem;
+      color: var(--white);
       font-family: 'LexendDeca-Regular';
   }
+
+  header .container-header .search-icon{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
   
   header .container-header input{
     width: 60%;
-    display: block;
-    margin: auto;
-    padding: .4rem;
-    border-radius: 5px;
+    margin-top: 1.2rem;
+    padding: .6rem 2.2rem;
+    border: none;
     outline: none;
+    font-size: 1rem;
+    border-radius: .25rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: url(/assets/img/search.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 12px 9px;
+    color: var(--white);
+  }
+
+  input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
   }
   
 
@@ -75,26 +96,23 @@ header .container-header ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     background-color: hsl(0, 0%, 92%);
   }
 
 main .container-main{
-    width: 60%; 
-   
+    width: 60%;
     
   }
   
   main .container-main .content{
     height: auto;
-    margin-top: 2.4rem;
-    margin-bottom: 2.4rem;
+    width: 100%;
+    margin: 2.4rem 0;
     border: 1px solid white;
     border-radius: 12px;
     background-color: white;
     box-shadow: 2px 2px 8px gray;
-    padding: .8rem;
-    transition: 2s ease-in-out;
+    padding: 1.2rem;
 
   }
  
