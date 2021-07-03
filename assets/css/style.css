@@ -3,7 +3,7 @@
     --blue-dark: #574AE8;
     --white: #FFF;
     --title: #313131;
-    --text: #242424;
+    --text: #8e8e8e;
     
     --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
 
@@ -39,41 +39,38 @@
 
   header{
     background: var(--linear);
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 100%;
+   
+    
   }
 
   header .container-header{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 25vh;
+   height: 25vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 15px;
 }
 
 header .container-header ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
 }
 
 header .container-header ul li{
-      font-size: 1.3rem;
-      margin-top: 1.2rem;
+      font-size: 2.2rem;
       color: var(--white);
       font-family: 'LexendDeca-Regular';
   }
 
   header .container-header .search-icon{
-      display: flex;
-      align-items: center;
-      justify-content: center;
+     
   }
 
   
   header .container-header input{
-    width: 60%;
-    margin-top: 1.2rem;
+    
+    width: 20rem;
     padding: .6rem 2.2rem;
     border: none;
     outline: none;
@@ -100,7 +97,7 @@ header .container-header ul li{
   }
 
 main .container-main{
-    width: 60%;
+    margin: 0 3rem;
     
   }
   
@@ -113,7 +110,7 @@ main .container-main{
     background-color: white;
     box-shadow: 2px 2px 8px gray;
     padding: 1.2rem;
-
+    text-align: justify;
   }
  
   main .container-main .content span{
@@ -129,6 +126,7 @@ main .container-main .content i {
 }
 
   main .container-main .content h2{
+    font-weight: 400;
     font-family:'Inter-Medium' ;
     margin: .8rem 0;
     color: var(--title);
@@ -151,7 +149,9 @@ main .container-main .content i {
   main .container-main .three{
 
 }
-  
+ 
+
   main .container-main .four{
 
 }
+
