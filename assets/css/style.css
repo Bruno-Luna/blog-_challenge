@@ -40,8 +40,6 @@
   header{
     background: var(--linear);
     width: 100%;
-   
-    
   }
 
   header .container-header{
@@ -130,26 +128,14 @@ main .container-main .content i {
     color: var(--text);
 }
 
-  main .container-main .one{
-
-}
-
-  main .container-main .two{
-
-}
-
-  main .container-main .three{
-
-}
- 
-
-  main .container-main .four{
-
-}
 
 @media (min-width:300px) and (max-width: 480px) {
   html{
-    font-size: 10px;
+    font-size: 10px; 
+    /* diminui o tamanho de todas as fontes */
+  }
+  header .container-header{
+    height: 26vh;
   }
   header .container-header input{
     width: 18rem;
@@ -161,8 +147,9 @@ main .container-main .content i {
     font-size: 15px;
 
   }
+
   main .container-main .content p{
-    
-    line-height: 22px;
+    line-height: 20px;
+
   }
   }
