@@ -45,31 +45,23 @@
   }
 
   header .container-header{
-   height: 25vh;
+   height: 30vh;
    display: flex;
-   align-items: center;
-   justify-content: center;
    flex-direction: column;
-   gap: 15px;
+   justify-content: center;
+   margin: 0 3rem;
+   gap: 12px;
 }
 
-header .container-header ul{
-  display: flex;
+header .container-header p{
+  font-size: 2.2rem;
+  color: var(--white);
+  font-family: 'LexendDeca-Regular';
+  
+  
 }
-
-header .container-header ul li{
-      font-size: 2.2rem;
-      color: var(--white);
-      font-family: 'LexendDeca-Regular';
-  }
-
-  header .container-header .search-icon{
-     
-  }
-
   
   header .container-header input{
-    
     width: 20rem;
     padding: .6rem 2.2rem;
     border: none;
@@ -110,7 +102,7 @@ main .container-main{
     background-color: white;
     box-shadow: 2px 2px 8px gray;
     padding: 1.2rem;
-    text-align: justify;
+    
   }
  
   main .container-main .content span{
@@ -155,3 +147,22 @@ main .container-main .content i {
 
 }
 
+@media (min-width:300px) and (max-width: 480px) {
+  html{
+    font-size: 10px;
+  }
+  header .container-header input{
+    width: 18rem;
+    padding: .6rem 2.2rem;
+    background-size: 16px;
+    background-position: 4px 6px;
+  }
+  main .container-main .content i {
+    font-size: 15px;
+
+  }
+  main .container-main .content p{
+    
+    line-height: 22px;
+  }
+  }
