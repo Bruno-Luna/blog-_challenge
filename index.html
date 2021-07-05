@@ -22,38 +22,77 @@
     <main>
         <div class="container-main">
             <div class="content">
-                <span>02 de julho, 2021</span>
-                <i class="far fa-heart"></i>
-                <h2>Samsung TV Plus: streaming recebe mais de 35 canais gratuitos.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam recusandae error aliquid, laudantium similique quae rem et ut voluptate illum a exercitationem.</p>
+                <div class="header-post">
+                    <span>05 de julho, 2021</span>
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="body-post">
+                    <h2 class="title">Pandemia faz brasileiros se reinventarem com a tecnologia.</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam recusandae error aliquid, laudantium similique quae rem et ut voluptate illum a exercitationem.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="header-post">
+                    <span>05 de julho, 2021</span>
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="body-post">
+                    <h2 class="title">Cursos grátis para quem quer começar — ou já trabalha — na área de tecnologia.</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam recusandae error aliquid, laudantium similique quae rem et ut voluptate illum a exercitationem.</p>
+                </div>
             </div>
             <div class="content">
-                <span>02 de julho, 2021</span>
-                <i class="far fa-heart"></i>
-                <h2>Apple e Intel podem ser as primeiras a usar um novo processo de fabricação de chips.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt incidunt nesciunt, aliquid voluptatem voluptatibus ab natus sed officiis maiores amet soluta totam necessitatibus. Odit quis dicta cupiditate veniam animi rem!</p>
+                <div class="header-post">
+                    <span>05 de julho, 2021</span>
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="body-post">
+                    <h2 class="title">E-commerce cresce 72% em faturamento em 2021: como aproveitar essa onda?</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam recusandae error aliquid, laudantium similique quae rem et ut voluptate illum a exercitationem.</p>
+                </div>
             </div>
             <div class="content">
-                <span>02 de julho, 2021</span>
-                <i class="far fa-heart"></i>
-                <h2>LG Informática anuncia aquisição da Norber Tecnologia.</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class="header-post">
+                    <span>05 de julho, 2021</span>
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="body-post">
+                    <h2 class="title">Cientistas detectam sinal de rádio vindo de dentro da Via Láctea, mas sua causa é desconhecida.</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam recusandae error aliquid, laudantium similique quae rem et ut voluptate illum a exercitationem.</p>
+                </div>
             </div>
             <div class="content">
-                <span>02 de julho, 2021</span>
-                <i class="far fa-heart"></i>
-                <h2>Cientistas descobrem células responsáveis por ligar rostos de familiares à memória.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime perferendis reiciendis enim ut corrupti consequuntur modi.</p>
-            </div>
-            <div class="content">
-                <span>02 de julho, 2021</span>
-                <i class="far fa-heart"></i>
-                <h2>Bicicletas elétricas são o futuro da mobilidade urbana?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia maxime perferendis reiciendis enim ut corrupti consequuntur modi.</p>
+                <div class="header-post">
+                    <span>05 de julho, 2021</span>
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="body-post">
+                    <h2 class="title">Carro movido a vento faz youtuber ganhar US$ 10 mil em aposta com físico</h2>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam recusandae error aliquid, laudantium similique quae rem et ut voluptate illum a exercitationem.</p>
+                </div>
             </div>
         </div>
     </main>
-
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+               origin: 'top',
+               distance: '50px',
+               duration: 2000,
+               reset: true
+            });
+       
+       
+           ScrollReveal().reveal('.content', { delay: 150 });
+           ScrollReveal().reveal('.header-post', { delay: 350 });
+           ScrollReveal().reveal('.title', { delay: 450 });
+           ScrollReveal().reveal('.description', { delay: 500 });
+       
+           
+           
+    </script>
     
 </body>
 </html>
