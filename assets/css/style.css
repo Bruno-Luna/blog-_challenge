@@ -40,6 +40,7 @@
   header{
     background: var(--linear);
     width: 100%;
+    
   }
 
   header .container-header{
@@ -100,6 +101,7 @@ main .container-main{
     background-color: white;
     box-shadow: 2px 2px 8px gray;
     padding: 1.2rem;
+    cursor: pointer;
     
   }
  
@@ -131,11 +133,12 @@ main .container-main .content i {
 
 @media (min-width:300px) and (max-width: 480px) {
   html{
-    font-size: 10px; 
+    font-size: 12px; 
     /* diminui o tamanho de todas as fontes */
   }
   header .container-header{
     height: 26vh;
+    text-align: center;
   }
   header .container-header input{
     width: 18rem;
@@ -153,3 +156,14 @@ main .container-main .content i {
 
   }
   }
+
+  
+@media (min-width:481px) and (max-width: 767px) {
+  html{
+    font-size: 16px;
+    
+  }
+  header .container-header{
+    text-align: center;
+  }
+}
