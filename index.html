@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/57ce391461.js" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="assets/css/style.css">    
     <title>Codelândia | Seu informativo diário.</title>
 </head>
 <body>
@@ -24,7 +22,7 @@
             <div class="content">
                 <div class="header-post">
                     <span>05 de julho, 2021</span>
-                    <i class="far fa-heart"></i>
+                    <img src="assets/img/heart.png" alt="heart" class="like" onclick='BgImg()'>
                 </div>
                 <div class="body-post">
                     <h2 class="title">Pandemia faz brasileiros se reinventarem com a tecnologia.</h2>
@@ -35,7 +33,7 @@
             <div class="content">
                 <div class="header-post">
                     <span>05 de julho, 2021</span>
-                    <i class="far fa-heart"></i>
+                    <img src="assets/img/heart.png" alt="heart" class="like" onclick='BgImg()'>
                 </div>
                 <div class="body-post">
                     <h2 class="title">Cursos grátis para quem quer começar — ou já trabalha — na área de tecnologia.</h2>
@@ -45,7 +43,7 @@
             <div class="content">
                 <div class="header-post">
                     <span>05 de julho, 2021</span>
-                    <i class="far fa-heart"></i>
+                    <img src="assets/img/heart.png" alt="heart" class="like" onclick='BgImg()'>
                 </div>
                 <div class="body-post">
                     <h2 class="title">E-commerce cresce 72% em faturamento em 2021: como aproveitar essa onda?</h2>
@@ -55,7 +53,7 @@
             <div class="content">
                 <div class="header-post">
                     <span>05 de julho, 2021</span>
-                    <i class="far fa-heart"></i>
+                    <img src="assets/img/heart.png" alt="heart" class="like" onclick='BgImg()'>
                 </div>
                 <div class="body-post">
                     <h2 class="title">Cientistas detectam sinal de rádio vindo de dentro da Via Láctea, mas sua causa é desconhecida.</h2>
@@ -65,7 +63,7 @@
             <div class="content">
                 <div class="header-post">
                     <span>05 de julho, 2021</span>
-                    <i class="far fa-heart"></i>
+                    <img src="assets/img/heart.png" alt="heart" class="like" onclick='BgImg()'>
                 </div>
                 <div class="body-post">
                     <h2 class="title">Carro movido a vento faz youtuber ganhar US$ 10 mil em aposta com físico</h2>
@@ -90,7 +88,25 @@
            ScrollReveal().reveal('.title', { delay: 450 });
            ScrollReveal().reveal('.description', { delay: 500 });
        
-           
+           const likes = document.querySelectorAll(".like")
+
+
+           function BgImg(){
+                for (const like of likes) {
+                like.addEventListener('click', () => liked(like))
+            }
+    
+            const liked = (item) => {
+                if (item.getAttribute('src') == './assets/img/heart.png') {
+                item.src = './assets/img/like.png'
+                
+            } else {
+                item.src = './assets/img/heart.png'
+        }
+                
+    }
+
+}
            
     </script>
     

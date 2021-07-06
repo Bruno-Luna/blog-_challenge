@@ -111,11 +111,11 @@ header .container-header p{
     
 }
 
-main .container-main .content i {
-  color: #574AE8;
+main .container-main .content img {
   float: right;
-  font-size: 20px;
+
 }
+
 
   main .container-main .content h2{
     font-weight: 400;
