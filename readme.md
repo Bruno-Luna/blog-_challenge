@@ -1,6 +1,6 @@
 # **Blog _Challenge**
 
-Este desafio foi uma iniciativa do dev [Iuri](https://github.com/iuricode) a comunidade *Codelândia*. Os principais objetivos  são: criar uma página que remete aos padrões de estilo de um `Blog`, bem como deixá-lo responsivo. Foi sugerido que usássemos a biblioteca  **Scollreveal** para fazer as animações conforme vai acontecendo o scroll da página, isto foi algo novo em meu aprendizado.
+Este desafio foi uma iniciativa do dev [**Iuri**](https://github.com/iuricode) à comunidade *Codelândia*. Os principais objetivos  são: criar uma página que remete aos padrões de estilo de um `Blog`, bem como deixá-lo responsivo. Foi sugerido que usássemos a biblioteca  **Scollreveal** para fazer as animações conforme vai acontecendo o scroll da página, isto foi algo novo em meu aprendizado.
 
 Para fins de incremento do presente trabalho utilizei a linguagem javascript para que o usuário faça a favoritação da publicação.
 
@@ -27,6 +27,9 @@ https://bruno-luna.github.io/blog_challenge/
   - index.html
   - readme.md
   - assets/
+    - screenshot/
+      - desktop.png
+      - mobile.png
     - css/
       - style.css
     - fontes/
@@ -34,10 +37,10 @@ https://bruno-luna.github.io/blog_challenge/
       - Inter-Regular.ttf
       - LexendDeca-Regular.ttf
     - img/
-      - heart.png
+    - heart.png
       - like.png
       - search.svg
-
+  
   
 
 ## Especificações:
@@ -58,6 +61,11 @@ https://bruno-luna.github.io/blog_challenge/
 
 ## Screenshot: 
 
-![]()
+### Desktop:
 
-![]()
+![](https://github.com/Bruno-Luna/blog_challenge/blob/master/assets/screenshot/desktop.png)
+
+### Mobile:
+
+![](https://github.com/Bruno-Luna/blog_challenge/blob/master/assets/screenshot/mobile.png)
+
