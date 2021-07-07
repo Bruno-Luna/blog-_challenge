@@ -1,6 +1,6 @@
 # **Blog _Challenge**
 
-Este desafio foi uma iniciativa do dev *[Iuri]* (https://github.com/iuricode) a comunidade *Codelândia*. Os principais objetivos  são: criar uma página que remete aos padrões de estilo de um `Blog`, bem como deixá-la responsiva. Foi sugerido que usássemos a biblioteca  **Scollreveal** para fazer as animações conforme vai acontecendo o scroll da página, isto foi algo novo em meu aprendizado.
+Este desafio foi uma iniciativa do dev [Iuri](https://github.com/iuricode) a comunidade *Codelândia*. Os principais objetivos  são: criar uma página que remete aos padrões de estilo de um `Blog`, bem como deixá-lo responsivo. Foi sugerido que usássemos a biblioteca  **Scollreveal** para fazer as animações conforme vai acontecendo o scroll da página, isto foi algo novo em meu aprendizado.
 
 Para fins de incremento do presente trabalho utilizei a linguagem javascript para que o usuário faça a favoritação da publicação.
 
